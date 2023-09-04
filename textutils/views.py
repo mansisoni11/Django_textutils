@@ -53,19 +53,3 @@ def analyze(request):
   
     if(removepunc!="on" and newlineremover !="on" and extrspaceremover!="on" and fullCAPS!="on") :
         return HttpResponse("please select any operation and try again")
-
-  
-    
-    
-# def capfirst(request):
-#     return HttpResponse("capitalize first <a href='/'>back</a>")
-
-# def newlineremove(request):
-#     return HttpResponse("new line remove <a href='/'>back</a> ")
-
-# def spaceremove(request):
-#     return HttpResponse("space remove <a href='/'>back</a>")
-
-# def charcount(request):
-#     return HttpResponse("char count <a href='/'>back</a>")
-
